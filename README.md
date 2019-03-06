@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+#### Adaptive websites utilize media queries and responsive units of measurement however when thinking about all of possible screen sizes and possible devices one could use most often it is the Adaptive websites that only hard code for mobile tablet and desktop sizes and newer devices out side of the three are not taken into consideration. Thus there is no telling what new mobile , desktop or tablet will look like as far as layout is concerned. Responsive is the cross pollenation of all the layout best practices so it uses ems/rems, media querites to determine layout width and is not hard coded to fit a few devices but rather all mobile device alternatives giving the same user experience across any device.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+#### Mobile first is a design methodology that begins the initial design as a mobile layout opposed to the traditional desktop layout. With this movement came the idea to prioritize content above layout aesthetics. As a result design time saved increased exponentially and the need to iterate multiple desktop design layouts were not necessary to the prosperity of the bottom dollar. In my personal opinion it also solidified the need for UX design as mobile first design and UX/UI design are symbiotic and not a part of the product life cycle that can be overlooked.
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+#### SO when you set your body element to a font sizing to the value 62.5% it means that thereafter you can set the rest of the document in REMs and can use equation 1 REM = 10 px. So developers and designers can recreate pixel perfect outcomes and not worry that the static px will hender the responsiveness of REMS.
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
+#### It is a way to customize your CSS in a way that makes both enterprise level designs all the way down to SPA easier to design and not get caught up in syntactic errors or verbose mark up. its like customizeable key shortcuts but for your CSS. And it looks more like actual code than CSS syntax.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+#### I enjoy the variables and being able to go about my color palattes in a way where I have control of the name and not subjected to unknown hex decinmal numbers when you are working front end you have ot be on the same page as UI/UX Designers. Mixins once I finally learned how to do them properly cut out some verbose syntax and allows for both a clean read and concise but manageable code. I am always concerned with nesting and specificity.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
